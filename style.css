@@ -1,39 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html{
     height: 100%;
 }
+
 body{
     background-color: #2F3035;
     background-image: url(images/background2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    
-
+    background-position: center;  
 }
+
 .contanier{
     margin:auto;
-    width: 1024px;
+    max-width: 70%;
 }
+
 header{
-    height: 110px;
+    height: 687.5%;
     text-align: center;
 }
 header h1{
     font-family: serif;
-    font-size: 50px;
+    font-size: 3.125em;
     color:rgb(235, 43, 235);
 }
 nav {
     background-color:rgba(0,0,0,0.800);
     text-align: center;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    margin: 30px 0;
+    /* padding-top: 300px 0; */
    
 }
 main{
-    height: 400px;
     text-align: center;
-    padding: 0px 240px 20px;   
+    /* margin: auto; */
+    /* padding: 0px 240px 20px;    */
     
 }
 
@@ -41,37 +48,35 @@ main p {
 	background-color:rgba(0,0,0,0.800);
 	padding : 20px;
     font-family: 'Literata', serif;
+    max-width: 60%;
+    margin: auto;
+
 }
 footer{
     background-color: rgba(0,0,0,0.728);
-    height: 80px;
+    height: 5%;
     padding: 30px 0px;
-    box-sizing: border-box;
-
-    
+}
+h1, p, a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 h1{
-    font-size: 84px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5.25em;
 }
 p{
-    font-size: 18px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125em;
 }
-a{
-    color : white;
-    font-family: Arial, Helvetica, sans-serif;   
-}
+
 a:hover{
     background-color: rgb(51, 50, 50);
 }
 nav a{
     text-decoration: none;
-    font-size: 12px;
+    font-size: 0.75em;
     display:inline-block;
     padding: 10px;
+    /* font: 0/0 a; */
 }
 nav a:hover{
     background-color: purple;
@@ -84,7 +89,7 @@ main a{
 }
 
 footer p{
-    font-size:12px; 
+    font-size: 0.75em; 
     text-align: center;
     color: white;
 }
@@ -93,7 +98,7 @@ section{
     margin: 10px 0px;
 }
 
-/* .maps{
-    margin-top: 10px;
-    padding-bottom: 20px;
-} */
+.maps{
+    width: 100%;
+    margin: auto;
+}
