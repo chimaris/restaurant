@@ -111,6 +111,8 @@ footer p{
 .menu-container img {
     width: 100%;
     height: 100%;
+    border-radius: 25px;
+
 }
 
 .menu-container h1 {
@@ -123,6 +125,8 @@ footer p{
 .menu {
     background-color: #f5f5f5;
     margin: 15px 0;
+    border-radius: 25px;
+
 }
 
 .menu p, .menu h3{
@@ -188,7 +192,6 @@ form > input[type="submit"] {
     .menu-container img {
         width: 100%;
         height: 50%;
-        border-radius: 25px;
     }
     .menu-grid {
         display: flex;
@@ -198,7 +201,6 @@ form > input[type="submit"] {
         width: 31.2%;
         height: 350px;
         margin: 10px;
-        border-radius: 25px;
     }
 
     .order-grid {
